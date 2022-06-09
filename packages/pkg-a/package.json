@@ -1,0 +1,17 @@
+{
+  "name": "@test/cloud-logger",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dayjs": "~1.11.0",
+    "fastify": "~3.27.4",
+    "@fastify/cors": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
